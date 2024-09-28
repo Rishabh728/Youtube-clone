@@ -1,0 +1,490 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+   
+}
+body{
+    font-family: "Roboto","Arial",sans-serif;
+    background-color: #0f0f0f;
+    color: rgb(234, 228, 228);
+}
+
+
+#navBar{
+    /* border: solid red; */
+    background-color: #0f0f0f;
+    height: 60px;
+    display: flex;
+    width: 100%;
+    /* justify-content: space-between; */
+    align-items: center;
+    position: fixed;
+    
+    
+}
+
+#navBar #logo{
+    
+    /* border: solid pink; */
+    
+    display: flex;
+    margin: 10px 0px 10px 20px;
+    column-gap: 30px;
+    /* flex: 0.2; */
+}
+#navBar #logo i{
+    border: 0.1 solid;
+    font-size: 20px;
+    
+    
+    
+}
+#navBar #logo #ytIcon{
+    height: 22px;
+    width: 150px;
+     
+ 
+ }
+
+#navBar #input{
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    width: 80%;
+  
+
+}
+#navBar #input input{
+    border: none;
+    height: 40px;
+    width: 55%;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    font-size: large;
+    padding-left: 10px;
+    box-shadow: rgba(86, 86, 86, 0.87) 0px 1px 3px 0px, rgba(61, 61, 61, 0.824) 0px 0px 0px 1px;
+    background-color: #121212;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    
+    
+
+}
+
+#navBar #input #searchLogo{
+    border: solid #272727;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #272727;
+    width: 45px;
+    height: 45px;
+    
+    font-size: large;
+    padding-left: 5px;
+    margin-top: 8px;
+    margin-left: 2px;
+
+
+}
+#navBar #input #searchLogo i{
+    margin: 10px 0px 0px 5px;
+    color: white;
+    
+
+}
+#navBar #input #miceLogo{
+    /* border: solid black; */
+    background-color: #272727;
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    margin-left: 15px;
+    margin-top: 10px;
+    
+    
+
+}
+#navBar #input #miceLogo i{
+    font-size: large;
+    padding-left: 15px;
+    padding-top: 12px;
+    width: fit-content;
+    
+
+}
+
+
+#navBar #Login{
+    /* border: solid; */
+    display: flex;
+    /* column-gap: 30px; */
+    justify-content: space-evenly;
+    width: 300px;
+    
+  
+}
+#navBar #Login #videoLogo{
+    font-size: large;
+    padding: 15px 0px 0px 15px;
+    
+    
+
+  
+}
+#navBar #Login #bellLogo{
+    font-size: large;
+    padding: 15px 0px 0px 15px;
+
+}
+#navBar #Login #loginLogo{
+    font-size: large;
+    /* border: solid black; */
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+    margin-right: 30px;
+    margin-top: 7px;
+    padding: 7px 0px 0px 12px;
+    background-color: #272727;
+    color: rgb(255, 255, 255);
+    
+   
+  
+}
+#navBar #Login #loginLogo i{
+    font-size: small;
+    
+   
+  
+}
+
+@media screen and (max-width:675px) {
+
+    #navBar #input #searchLogo{
+        border-radius: 100px;
+ 
+    }
+    #navBar #input input{
+        display: none;
+    }
+    
+    #navBar #input #miceLogo{
+        display: none;
+    }
+    #navBar #input #miceLogo i{
+        display: none;
+    }
+    #navBar #Login #bellLogo{
+        display: none;
+    
+    }
+
+}
+
+
+
+/* bottom part */
+#bodyPart{
+    /* border: solid blue; */
+    border-top: 0.1px solid #272727;
+    
+    height: 92vh;
+    display: flex;
+    column-gap: 10px;
+    
+}
+/* Custom scrollbar*/
+
+
+  
+
+
+/* left part */
+#bodyPart #leftPart{
+    /* border: solid green; */
+    /* border-right: 0.1px solid rgb(197, 195, 195); */
+    width: fit-content;
+    height: fit-content;
+    margin-top: 65px;
+    
+  
+}
+#bodyPart #leftPart .leftPartList{
+    /* border-bottom: 0.1px solid rgb(197, 195, 195); */
+    margin-bottom: 10px;
+    width: fit-content;
+    
+    margin-left: 15px;
+    
+}
+#bodyPart #leftPart .leftPartList .leftPartDataBox3{
+    /* border: solid rgb(82, 109, 0); */
+    display: flex;
+    font-size: 14px;
+    padding: 10px 0px 10px 0px;
+    margin: 4px 0px 0px 0px;
+    font-weight: 600;
+    
+    
+}
+#bodyPart #leftPart .leftPartList .leftPartDataBox3 .thirdPart{
+    /* border: solid rgb(82, 109, 0); */
+    width: 120px;
+    
+}
+#bodyPart #leftPart .leftPartList .leftPartDataBox3:hover{
+    /* border: solid rgb(82, 109, 0); */
+    background-color: #272727;
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 10px 0px 10px 0px;
+    margin: 4px 0px 0px 0px;
+    font-weight: 600;
+    
+}
+#bodyPart #leftPart .leftPartList .leftPartDataBox3 i{
+   
+    padding:0px 30px 0px 10px;
+    
+}
+
+/* down border */
+#bodyPart #leftPart .leftPartList .leftPartDataYou{
+
+    /* border-top: 0.1px solid rgb(197, 195, 195); */
+    
+    padding:5px 0px 10px 10px;
+    font-size: large;
+    display: flex;
+    
+    
+}
+
+
+/* 3rd part  */
+#bodyPart #leftPart .leftPartList .leftPartDataBox3 img{
+   
+    /* border: solid; */
+    border-radius: 100%;
+    height: 25px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: -5px;
+    
+    
+}
+/* toggle Hidden content */
+.hiddenContent{
+    display: none;
+    width: 00px;
+
+}
+.hiddenContentYou{
+    border-top: 0px;
+    display: none;
+}
+
+/* Right part */
+#bodyPart #rightPart{
+    /* border: solid orange; */
+    margin-top: 60px;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 10px;
+    padding-left: 10px;
+    
+}
+#bodyPart #rightPart .rightMainBox{
+    /* border: solid rgb(0, 255, 13); */
+    height: 350px;
+    width: 32%;
+    margin: 40px 0px 0px 0px;
+    border-radius: 20px;
+    
+}
+#bodyPart #rightPart .rightMainBox .rightVideoBox{
+    /* border: solid rgb(255, 255, 255); */
+    border-radius: 20px;
+    height: 70%;
+
+}
+#bodyPart #rightPart .rightMainBox .rightVideoBox img{
+    /* border: solid rgb(255, 255, 255); */
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+
+}
+#bodyPart #rightPart .rightMainBox .rightTitleBox{
+    /* border: 0.1px solid rgb(255, 0, 0); */
+    height: 30%;
+    display: flex;
+
+}
+
+#bodyPart #rightPart .rightMainBox .rightTitleBox img{
+    /* border: 0.1px solid rgb(255, 4, 188); */
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    
+}
+#bodyPart #rightPart .rightMainBox .rightTitleBox .rightTitle{
+   color: rgb(179, 177, 177);
+   font-size: small;
+   padding-top: 10px;
+   font-weight: 600;
+}
+#bodyPart #rightPart .rightMainBox .rightTitleBox .rightTitle:hover{
+   color: rgb(255, 255, 255);
+
+}
+#bodyPart #rightPart .rightMainBox .rightTitleBox .rightTitle p{
+   color: white;
+   font-size: 14px;
+   font-weight: 600;
+   word-spacing: 5px;
+   padding-bottom: 10px;
+}
+
+@media screen and (max-width:1235px) {
+    #bodyPart #rightPart .rightMainBox{
+        width: 47%;
+        
+    }
+}
+@media screen and (max-width:890px) {
+    #bodyPart #rightPart .rightMainBox{
+        width: 47%;
+        height: fit-content;
+
+    }
+
+    /* leftPart */
+    #bodyPart #leftPart{
+        display: none;
+
+    }
+}
+@media screen and (max-width:425px) {
+    #bodyPart #rightPart .rightMainBox{
+        width: 95%;
+        height: fit-content;
+   
+    }
+
+    /* leftPart */
+    #bodyPart #leftPart{
+        display: none;
+        
+      
+    }
+}
+
+
+/* SEarch page video */
+a{
+    color: white;
+    text-decoration: none;
+}
+.searchRightMainBox{
+    /* border: solid red; */
+    width: fit-content;
+    display: flex;
+    gap: 20px;
+    
+
+}
+.searchRightMainBox .searchRightVideoBox{
+    /* border: solid rgb(0, 13, 255); */
+    border-radius: 20px;
+    height: 90%;
+    width: 500px;
+    margin: 10px;
+    flex: 1;
+}
+.searchRightMainBox .searchRightVideoBox a img{
+    border-radius: 20px;
+    height: 100%;
+    width: 500px;
+}
+
+
+.searchRightMainBox .searchRightVideoBox .searchRightTitleBox{
+    border: solid pink;
+    height: 30%;
+    display: flex;
+    flex: 1;
+}
+.searchRightMainBox  .searchRightTitleBox p{
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    word-spacing: 5px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    flex: 1;
+}
+.searchRightMainBox  .searchRightTitleBox .searchRightTitle{
+   /* border: solid; */
+   display: flex;
+
+    
+}
+.searchRightMainBox  .searchRightTitleBox .searchRightTitle p{
+    color: rgb(179, 177, 177);
+    font-size: larger;
+    
+    font-weight: 600;
+    
+}
+.searchRightMainBox .searchRightTitleBox .searchRightTitle p:hover{
+    color: rgb(255, 255, 255);
+}
+.searchRightMainBox .searchRightTitleBox .searchRightTitle img{
+    /* border: 0.1px solid rgb(255, 4, 188); */
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width:750px) {
+    .searchRightMainBox{
+        /* border: solid red; */
+        width: 100%;
+        height: fit-content;
+        display: inline;
+        
+    
+    }
+    .searchRightMainBox .searchRightVideoBox{
+        /* border: solid rgb(0, 13, 255); */
+        border-radius: 20px;
+        height: 90%;
+        width: 95%;
+        margin: 10px;
+        flex: 1;
+    }
+    .searchRightMainBox .searchRightVideoBox a img{
+        border-radius: 20px;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+
+
+
+
+
